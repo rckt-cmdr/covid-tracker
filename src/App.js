@@ -3,6 +3,7 @@ import {Cards, Charts, CountryPicker} from "./components"
 import styles from "./App.module.css"
 import {fetchData} from "./api"
 import covidImage from "./images/covid-19.png";
+
 class App extends React.Component{
     state = {
         data: {},
